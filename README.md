@@ -1,8 +1,8 @@
 # OCTAD 2.0
 
-<video src="https://github.com/user-attachments/assets/45b5a812-437d-4104-8aba-f236903ff7d3" controls muted autoplay loop playsinline width="100%"></video>
+<video src="https://github.com/user-attachments/assets/f8a2196b-d8b9-4ed2-b7dd-5f6ecdd85232" controls muted autoplay loop playsinline width="100%"></video>
 
-*Video not playing? [Watch the demo here](docs/OCTAD2_demo_animated.mp4).*
+*Video not playing? [Watch the demo here](docs/demo.mp4).*
 
 **OCTAD 2.0** is a transcriptomics-based drug discovery platform covering disease signature exploration, disease-centric drug repurposing, and drug-centric indication expansion. You can use it in two ways:
 
