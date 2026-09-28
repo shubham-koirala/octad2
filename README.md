@@ -1,13 +1,24 @@
-# OCTAD 2.0 MCP Server
+# OCTAD 2.0
 
-Connect Claude, ChatGPT, or any [Model Context Protocol](https://modelcontextprotocol.io) client directly to **OCTAD 2.0** — a transcriptomics-based drug discovery platform covering disease signature exploration, disease-centric drug repurposing, and drug-centric indication expansion.
+<video src="https://github.com/user-attachments/assets/45b5a812-437d-4104-8aba-f236903ff7d3" controls muted autoplay loop playsinline width="100%"></video>
 
-- **Portal:** https://apps.octad.org/octad2/
+*Video not playing? [Watch the demo here](docs/OCTAD2_demo_animated.mp4).*
+
+**OCTAD 2.0** is a transcriptomics-based drug discovery platform covering disease signature exploration, disease-centric drug repurposing, and drug-centric indication expansion. You can use it in two ways:
+
+| Web portal | MCP server (Claude, ChatGPT / Codex) |
+|---|---|
+| **[apps.octad.org/octad2](https://apps.octad.org/octad2/)** | `https://apps.octad.org/octad2/mcp` |
+| Interactive interface with volcano plots, gene and pathway exploration, drug repurposing, and indication expansion | Ask for the same analyses in plain language from any MCP-compatible AI client |
+| Open in your browser, no setup needed | Add the URL above as a connector ([setup instructions below](#connect-in-claude-desktop)) |
+
+### About the MCP server
+
+Connect Claude, ChatGPT, or any [Model Context Protocol](https://modelcontextprotocol.io) client directly to OCTAD 2.0. No installation required. This is a **hosted, remote** MCP server, so you just point your AI client at the URL.
+
 - **MCP endpoint:** `https://apps.octad.org/octad2/mcp`
 - **Transport:** Streamable HTTP
-- **Authentication:** None — this is a small, public, unauthenticated research API for the OCTAD community. Please be considerate of load.
-
-No installation required. This is a **hosted, remote** MCP server — you just point your AI client at the URL above.
+- **Authentication:** None. This is a small, public, unauthenticated research API for the OCTAD community. Please be considerate of load.
 
 ---
 
